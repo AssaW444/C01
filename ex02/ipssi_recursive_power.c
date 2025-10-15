@@ -8,7 +8,3 @@ int	ipssi_recursive_power(int nb, int power)
 		return (1);
 	return (nb * ipssi_recursive_power(nb, power - 1));
 }
-int main ()
-{
-	printf("%d\n",ipssi_recursive_power(2,5));
-}
